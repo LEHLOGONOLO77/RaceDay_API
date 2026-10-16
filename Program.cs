@@ -1,8 +1,6 @@
 using System.Reflection;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.OpenApi.Any;
-using Microsoft.OpenApi.Models;
 using RaceDay.Api;
 using Microsoft.EntityFrameworkCore;
 
