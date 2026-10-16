@@ -10,8 +10,15 @@ RESTful API for the RaceDay system, built with ASP.NET Core Web API (.NET 8), En
 
 
 ## Demo video
+Presentation of RaceDay POE 2 Part 1 of the video
+https://youtu.be/QAnGXEjSkCI?si=g5tLHwlvaYEPtFLz
+Presentation of RaceDay POE 2 Part 2 of the video
+https://www.youtube.com/watch?v=9h198GOUBWs
+Presentation of RaceDay POE 2 Part 3 of the video
+https://youtu.be/F6rJOLRqMv0?si=jidjsJmp4XX6GCJW
+Presentation of RaceDay POE 2 Part 4 of the video
+https://youtu.be/W0Gf5GMGVW8?si=bcuodc42arxtHTEP
 
-> Replace with your unlisted YouTube link: `https://youtu.be/XXXXXXXXXXX`
 
 ## Tech stack
 
