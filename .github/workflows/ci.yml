@@ -17,11 +17,17 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
-      - name: Restore dependencies
-        run: dotnet restore
+      - name: Restore API project
+        run: dotnet restore ./RaceDay.Api.csproj
 
-      - name: Build project
-        run: dotnet build --configuration Release --no-restore
+      - name: Restore test project
+        run: dotnet restore ./RaceDay.Api.Tests.csproj
+
+      - name: Build API project
+        run: dotnet build ./RaceDay.Api.csproj --no-restore --configuration Release
+
+      - name: Build test project
+        run: dotnet build ./RaceDay.Api.Tests.csproj --configuration Release
 
       - name: Run unit tests
-        run: dotnet test --configuration Release --no-build --verbosity normal
+        run: dotnet test ./RaceDay.Api.Tests.csproj --no-build --configuration Release --verbosity normal
