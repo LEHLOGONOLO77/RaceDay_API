@@ -3,10 +3,11 @@
 RESTful API for the RaceDay system, built with ASP.NET Core Web API (.NET 8), Entity Framework Core (Code-First) and SQL Server, with cookie-based session authentication and role-based access for **Organisers** and **Participants**.
 
 ## CI/CD status
+<img width="1020" height="451" alt="image" src="https://github.com/user-attachments/assets/d6d2bdb7-bd81-4fc2-a37d-4aa3226bfeb2" />
 
-> Replace this with your own screenshot of a green GitHub Actions run:
->
-> `![Green build](docs/green-build.png)`
+
+
+
 
 ## Demo video
 
