@@ -17,11 +17,14 @@ jobs:
         with:
           dotnet-version: '10.0.x'
 
+      - name: Find project files
+        run: find . -name "*.sln" -o -name "*.csproj"
+
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ./RaceDay.Api/RaceDay.Api.csproj
 
       - name: Build project
-        run: dotnet build --no-restore --configuration Release
+        run: dotnet build ./RaceDay.Api/RaceDay.Api.csproj --no-restore --configuration Release
 
       - name: Run unit tests
-        run: dotnet test --no-build --configuration Release --verbosity normal
+        run: dotnet test ./RaceDay.Api.Tests/RaceDay.Api.Tests.csproj --no-build --configuration Release --verbosity normal
